@@ -146,6 +146,12 @@
           color: $link-color;
         }
       }
+
+      .description {
+        display: inline-block;
+        color: $fg-color;
+        flex: 3;
+      }
     }
   }
 
