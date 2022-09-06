@@ -2,12 +2,16 @@
   <article>
     <header>
       <h1 class="title">
-        <a class="title-link" href="{{ .Permalink | safeURL }}">
-          {{ .Title }}
-        </a>
+        <strong>
+          <a class="title-link" href="{{ .Permalink | safeURL }}">
+            {{ .Title }}
+          </a>
+      </strong>
       </h1>
+      <h2>
+        {{.Description}}
+      </h2>
     </header>
-
     {{ .Content }}
   </article>
 </section>
